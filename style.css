@@ -1,0 +1,52 @@
+#body {
+    align-items: baseline;
+    margin-top: 30px;
+}
+
+input {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    background-color: rgba(0, 128, 0);
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0 0 20px rgba(0, 128, 0, 0.9);
+}
+
+#todo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#todolist {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    color: white;
+}
+
+#todolist li {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background for each todo */
+    color: white; /* Text color */
+    padding: 10px; /* Space inside each todo */
+    margin: 10px 0; /* Space between each todo */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    width: 80%; /* Adjust width if needed */
+    text-align: left; /* Align text to the left */
+}
